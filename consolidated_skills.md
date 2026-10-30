@@ -6,10 +6,11 @@
 ### 1. Software Engineering & Architecture
 
 #### Backend Development & Core Languages
-* **Java (11 / 17 / 21):** Core language proficiency, OOP/SOLID principles, business logic implementation, profiling, legacy refactoring, and code consolidation.
-* **Spring Ecosystem:** Spring Boot, Spring MVC, Spring Data JPA, Hibernate, RESTful & GraphQL API design, performance tuning, validation, session management, and resilience/retry handling.
+* **Java** Core language proficiency, OOP/SOLID principles, business logic implementation, profiling, legacy refactoring, and code consolidation.
+* **Spring Ecosystem:** Spring Boot, Spring MVC, Spring Data JPA, Hibernate, RESTful, validation, session management, and resilience/retry handling.
 * **Python:** Backend service design, FastAPI/Flask REST APIs, asynchronous workers, and financial analytics pipelines.
 * **Kotlin & Modern Java for Android:** Native mobile architecture, Android lifecycle, and reactive game loops.
+* **Other Languages:** C, C++, PHP
 
 #### Frontend Development & Web Technologies
 * **React & TypeScript:** Single-page applications, typed component architectures, custom hooks, debounced workflows, and state management.
@@ -19,7 +20,7 @@
 #### Software Architecture & System Design
 * **Design & Modeling:** High-Level Design (HLD), low-level component design, domain-driven decomposition, and interface-first architecture.
 * **Architectural Trade-Offs & Modernization:** Migrating monolithic EC2/Tomcat workloads to containerized microservices; evaluating compute tradeoffs (Serverless vs. Containerized Fargate vs. EC2).
-* **Distributed Messaging & Resiliency:** Event-driven architecture, asynchronous message workers, Dead-Letter Queues (DLQs), exponential backoff retries, and idempotency guarantees using Kafka, AWS SQS, and RabbitMQ.
+* **Distributed Messaging & Resiliency:** Event-driven architecture, asynchronous message workers, Dead-Letter Queues (DLQs), exponential backoff retries, and idempotency guarantees AWS SQS.
 
 ---
 
@@ -33,15 +34,14 @@
 #### Application Security & Vulnerability Remediation
 * **Security Automation:** Leading vulnerability remediation workflows, dependency CVE scanning, and patch management.
 * **Secret & Identity Governance:** AWS Secrets Manager credential rotation, IAM least-privilege policies, and zero-trust private service communication.
-* **Compliance:** PCI-DSS security awareness and cryptographic payload/signature validation.
 
 #### Databases & Application Platforms
-* **Relational Databases:** PostgreSQL, Amazon Aurora PostgreSQL, and MySQL (schema design, query optimization, indexing, and zero-downtime migrations).
+* **Relational Databases:** PostgreSQL, Amazon Aurora PostgreSQL, and MySQL (schema design, indexing).
 * **NoSQL & Local Stores:** DynamoDB, MongoDB, Cloud Firestore, Firebase Realtime Database, and Room ORM (SQLite).
 * **Caching & In-Memory Stores:** Redis architectural planning (e.g., Upstash Redis) and distributed cache invalidation.
 
 #### CI/CD, Observability & Reliability
-* **CI/CD Automation:** Multi-platform pipelines across GitLab CI/CD, Bitbucket Pipelines, and GitHub Actions (integrating automated linting, security scans, and tests).
+* **CI/CD Automation:** GitHub Actions (integrating automated linting, security scans, and tests).
 * **Build & Testing:** Maven, Gradle, JUnit 5, Mockito, Jest, Integration & Contract Testing, and maintaining >85% test coverage.
 * **Observability & L3 Operations:** Datadog APM & distributed tracing, AWS CloudWatch metrics/alarms, root-cause analysis (RCA), and operational runbook authoring.
 
@@ -50,8 +50,8 @@
 ### 3. AI Engineering, Computer Vision & Mobile Systems
 
 #### AI & Intelligent Systems
-* **LLM Workflows & Orchestration:** Retrieval-Augmented Generation (RAG), LangChain, LangGraph stateful multi-turn agent graphs, Model Context Protocol (MCP) servers, and human-in-the-loop flows.
-* **Prompt Engineering & Context Optimization:** Semantic document chunking, dynamic context/token window management, temperature tuning, and hallucination mitigation.
+* **LLM Workflows & Orchestration:** Retrieval-Augmented Generation (RAG), Model Context Protocol (MCP) servers, and human-in-the-loop flows.
+* **Prompt Engineering & Context Optimization:** Semantic document chunking, dynamic context/token window management, and hallucination mitigation.
 * **Model Integration:** Gemini API (sentiment & emotion analysis), Vertex AI, Anthropic Claude, and local LLM execution pipelines.
 
 #### Computer Vision & Edge AI
@@ -68,12 +68,8 @@
 
 ### 4. Enterprise Domains & Financial Analysis
 
-#### Payments & Fintech
-* **Payment Lifecycle Operations:** End-to-end charges, automated refunds, and chargeback/dispute status state machines.
-* **Webhook Reliability:** High-throughput webhook ingestion engines with replay attack mitigation and automated financial reconciliation.
-
 #### Airline GDS & Operations
-* **Aviation Workflows:** PNR lifecycle management, Amadeus GDS cryptic-command parsing, flight operations support, tail assignment, and fuel-order update automation.
+* **Aviation Workflows:** PNR lifecycle management, Amadeus GDS cryptic-command parsing, flight operations support: (tail assignment and fuel-order update).
 * **Legacy Modernization:** Translating cryptic terminal workflows into modern RESTful microservices.
 
 #### Financial Analysis & Equity Research
@@ -106,7 +102,6 @@
 * **Master of Computer Applications (MCA)** – Mar Athanasius College of Engineering (MACE)
 * **Bachelor of Computer Applications (BCA)** – SNDP Yogam College
 * **Claude Certified Developer - Foundations** – Anthropic
-* **Enterprise Application Security & Vulnerability Remediation** – Tata Consultancy Services
 * **Prompt Engineering for Generative AI** – DeepLearning.AI
 * **AI for Everyone: Master the Basics** – IBM / Coursera
 * **Java EE: Servlets and JavaServer Pages (JSP)**

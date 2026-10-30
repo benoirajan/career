@@ -1,0 +1,45 @@
+# Benoi Rajan Abraham
+Kochi, Kerala, India • [LinkedIn](https://www.linkedin.com/in/benoirajan/) • [GitHub](https://github.com/benoirajan)
+
+---
+
+### PROFESSIONAL SUMMARY
+Results-driven **Lead / Senior Java Engineer** with extensive experience architecting high-availability distributed microservices, event-driven aviation architectures, and resilient cloud infrastructure on AWS. Proven track record modernizing legacy airline systems and Amadeus GDS cryptic workflows into cloud-native Spring Boot microservices on AWS ECS Fargate, slashing operational query latency by 95%. Expert in event-driven messaging (Kafka, SQS), distributed caching (Redis), relational database tuning (PostgreSQL), and zero-trust cloud security. Based locally in Kochi, eager to drive mission-critical travel and airline SaaS platforms at IBS Software.
+
+---
+
+### TECHNICAL SKILLS
+* **Languages & Core:** Java (11/17/21), Object-Oriented Design, Concurrency & Multithreading, SQL, Python, Bash.
+* **Frameworks & Ecosystem:** Spring Boot, Spring MVC, Spring Data JPA, Hibernate, RESTful APIs, Microservices Architecture.
+* **Distributed Messaging & Resiliency:** Apache Kafka, AWS SQS, RabbitMQ, Dead-Letter Queues (DLQs), Idempotency, Circuit Breakers.
+* **Cloud & DevOps (AWS):** AWS ECS Fargate, Lambda, API Gateway, S3, CloudFormation (IaC), VPC Endpoints/PrivateLink, ALB, ECR, Route 53, Docker.
+* **Databases & Caching:** PostgreSQL, Amazon Aurora PostgreSQL, MySQL, Redis (distributed caching & locking), DynamoDB.
+* **CI/CD, Testing & Observability:** JUnit 5, Mockito, Jenkins, GitLab CI/CD, GitHub Actions, Datadog APM, AWS CloudWatch, CVE vulnerability scanning.
+
+---
+
+### PROFESSIONAL EXPERIENCE
+
+#### **Senior Software Engineer / Backend Lead**
+*TCS / Enterprise Aviation & Fintech Solutions* | *Kochi, Kerala*
+* **Aviation Modernization & Microservices:** Spearheaded the decomposition and migration of legacy monolithic EC2/Tomcat airline flight operations into containerized Spring Boot microservices on AWS ECS Fargate, reducing cloud compute costs by 35% and achieving 99.95% operational uptime.
+* **Amadeus GDS Lexical Parser:** Engineered a high-throughput Java lexical parsing engine with deterministic regular expressions to decode unstructured cryptic Amadeus GDS command streams into structured JSON schemas, reducing flight dispatcher PNR query and fuel update latency by 95% (from 45s to sub-2s).
+* **Zero-Trust Aviation Security:** Enforced strict network isolation using AWS VPC Endpoints and PrivateLink, preventing public internet exposure of sensitive Passenger Name Records (PNR) and airline flight dispatch payloads.
+* **High-Throughput Event Ingestion:** Designed a resilient webhook ingestion pipeline using Spring Boot, AWS SQS, and Aurora PostgreSQL processing 500+ events/sec with distributed Redis idempotency locks, eliminating 100% of duplicate transaction records.
+* **Engineering Excellence & Mentorship:** Mentored a squad of 4 junior and mid-level software engineers, led architectural design discussions, enforced CI/CD quality gates, and raised automated unit and integration test coverage beyond 85%.
+
+#### **Software Engineer**
+*Enterprise Cloud & Engineering Projects* | *Kochi, Kerala*
+* Engineered robust RESTful microservices and data access layers using Spring Boot, Spring Data JPA, and PostgreSQL with optimized query execution plans.
+* Implemented distributed message consumers with Apache Kafka and RabbitMQ, handling asynchronous state tracking and automated operational retry workflows.
+* Automated continuous integration pipelines with Jenkins and GitLab CI/CD, integrating SonarQube static code analysis and automated dependency vulnerability checks.
+* Collaborated with global cross-functional squads to modernize mission-critical enterprise workflows while guaranteeing zero unplanned downtime.
+
+---
+
+### EDUCATION & CERTIFICATIONS
+* **Master of Computer Applications (MCA)** – Mar Athanasius College of Engineering (MACE)
+* **Bachelor of Computer Applications (BCA)** – SNDP Yogam College
+* **Claude Certified Developer - Foundations** – Anthropic
+* **Enterprise Application Security & Vulnerability Remediation** – TCS
+* **Prompt Engineering for Generative AI** – DeepLearning.AI
